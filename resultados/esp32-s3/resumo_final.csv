@@ -1,0 +1,4 @@
+variante,status,arena_kb_tentado,arena_max_link_kb,arena_min_est_kb,tflite_bytes,sessoes,n_total,lat_mean_ms,lat_sd_ms,lat_median_ms,lat_p95_ms,flash_bytes,flash_pct,ram_bytes,ram_pct,arena_used_bytes,harness_bytes,acc_placa,f1_placa,concordancia_tflite_pc
+FP32,no_fit_arena,240.0,,,34316,,,,,,,,,,,,,,,
+INT16,ok,,,,18232,3.0,3000.0,1855.5101796666663,0.011910331868766135,1855.513,1855.517,398233.0,11.914810479856005,165208.0,50.41748046875,135948.0,5008.0,0.9957081545064378,0.9953699734202177,1.0
+INT8,ok,,,,16544,3.0,3000.0,44.309619,0.005373713607240718,44.31,44.316,396537.0,11.864067526424632,128344.0,39.16748046875,101116.0,2960.0,0.9957081545064378,0.9953699734202177,1.0

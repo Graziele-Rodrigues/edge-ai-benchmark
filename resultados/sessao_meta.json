@@ -1,0 +1,29 @@
+{
+  "data": "2026-10-18T12:27:33",
+  "host": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.5",
+  "arduino_cli": "arduino-cli  Version: 1.5.2-rc.1 Commit: fef6e48df Date: 2026-07-23T11:13:25Z",
+  "cores": "ID                Installed Latest Name\narduino:mbed_nano 4.6.0     4.6.0  Arduino Mbed OS Nano Boards\nesp32:esp32       3.3.11    3.3.11 esp32",
+  "bibliotecas": "Name                   Installed    Available Location Description\nArduino_LSM9DS1        1.1.1        -         user     -\nArduino_SpiNINA        0.0.2        -         user     -\nArduino_TensorFlowLite 2.4.0-ALPHA  -         user     -\nArduinoBLE             2.1.0        -         user     -\nArduTFLite             1.0.2        -         user     -\nChirale_TensorFLowLite 2.0.0        -         user     -\nMicroTFLite            1.0.4        -         user     -",
+  "fqbn": "esp32:esp32:esp32s3:CDCOnBoot=cdc,USBMode=hwcdc,FlashSize=8M,PartitionScheme=default_8MB,CPUFreq=240",
+  "args": {
+    "export_dir": "C:\\Users\\cgraz\\TrabalhoExperimentos\\arduino_export",
+    "sketch_dir": "C:\\Users\\cgraz\\TrabalhoExperimentos\\cnn_benchmark",
+    "out": "resultados",
+    "variants": [
+      "FP32",
+      "INT16",
+      "INT8"
+    ],
+    "runs": 1000,
+    "warmup": 20,
+    "sessions": 3,
+    "seed": 42,
+    "latency_window": 0,
+    "skip_accuracy": false,
+    "trigger_pin": null,
+    "arduino_cli": "arduino-cli",
+    "fqbn": "esp32:esp32:esp32s3:CDCOnBoot=cdc,USBMode=hwcdc,FlashSize=8M,PartitionScheme=default_8MB,CPUFreq=240",
+    "port": "COM3"
+  }
+}

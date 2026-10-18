@@ -1,0 +1,32 @@
+{
+  "classes": [
+    "Ball",
+    "InnerRace",
+    "Normal",
+    "OuterRace"
+  ],
+  "window_len": 2048,
+  "variants": {
+    "FP32": {
+      "tflite_bytes": 34316,
+      "arena_min_KB": 192.0,
+      "arena_max_KB": 256.0,
+      "host_accuracy": 0.9957081545064378,
+      "host_f1_macro": 0.9953699734202177
+    },
+    "INT16": {
+      "tflite_bytes": 18232,
+      "arena_min_KB": 96.0,
+      "arena_max_KB": 128.0,
+      "host_accuracy": 0.9957081545064378,
+      "host_f1_macro": 0.9953699734202177
+    },
+    "INT8": {
+      "tflite_bytes": 16544,
+      "arena_min_KB": 48.0,
+      "arena_max_KB": 64.0,
+      "host_accuracy": 0.9957081545064378,
+      "host_f1_macro": 0.9953699734202177
+    }
+  }
+}
